@@ -1,0 +1,14 @@
+    idris2-elab-util ... Skipped
+    idris2-elab-util ... Skipped
+Cloning into 'idris2-elab-util'...
+done.
+==> WARNING: Using existing $srcdir/ tree
+==> ERROR: A failure occurred in build().
+    Aborting...
+error: failed to build 'idris2-elab-util-git-latest-1': 
+error: can't build idris2-parser-git-latest-2, deps not satisfied: idris2-elab-util
+error: can't build idris2-refined-git-latest-2, deps not satisfied: idris2-elab-util
+error: can't build idris2-sop-git-latest-2, deps not satisfied: idris2-elab-util
+error: can't build idris2-parser-all-git-latest-2, deps not satisfied: idris2-parser-git  idris2-elab-util  idris2-refined  idris2-sop
+error: can't build idris2-pack-git-latest-3, deps not satisfied: idris2-elab-util  idris2-parser-toml
+error: packages failed to build: idris2-elab-util-git-latest-1  idris2-parser-git-latest-2  idris2-refined-git-latest-2  idris2-sop-git-latest-2  idris2-parser-all-git-latest-2  idris2-pack-git-latest-3
